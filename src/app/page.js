@@ -1,4 +1,5 @@
 'use client'
+import Test from "@/conponets/Test";
 // 1. Import Area
 
 import { useState } from "react";
@@ -20,6 +21,8 @@ import { useState } from "react";
           <h1>Hello {name}</h1>
           <h1>Hello {name2}</h1>
           <h1>Hello {name3}</h1>
+          <hr></hr>
+          <Test />
         </main>
       </>
     )
